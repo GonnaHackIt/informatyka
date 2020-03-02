@@ -3,10 +3,6 @@
     font-size: 18px;
 }
 
-#table{
-    flex-direction: column;
-}
-
 #xD{
     flex-direction: column;
 }
@@ -37,11 +33,17 @@ a:active{
 }
 
 aside{
-    margin-left: 5px;
     align-self: center;
+    align-items: flex-start;
     background-color: lightgrey;
     float: right;
     width: 25%;
+}
+
+audio{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 body{
